@@ -31,7 +31,7 @@ For the machine learning models, we'll use Neural Networks (MLP), Random Forest,
 ### Result
 We discover that Random Forest is the most effective model out of the three since all metrics are 1.00 (rounded to 2 d.p.). If we prioritize recall, the model that is trained by Random Undersampling is our best choice. However, if we want a balance between Precision and Recall (i.e., highest f1-score), the model that is trained by Random Oversampling would be more suitable. 
 
-However, the **best performing model is in fact the baseline/control model** (i.e., no resampling methods). The poorest performing model would be the one trained by NearMiss Undersampling, which results in the lowest accuracy, has a relatively lower average confidence score, and a lower recall. This can be attributed to the initial sampling, where due to algorithmic limitation, the two classes remain imbalanced.
+The poorest performing model would be the one trained by NearMiss Undersampling, which results in the lowest accuracy, has a relatively lower average confidence score, and a lower recall. This can be attributed to the initial sampling, where due to algorithmic limitation, the two classes remain imbalanced.
 
 
 ### Applications
